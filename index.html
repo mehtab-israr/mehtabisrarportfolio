@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEHTAB ISRAR PORTFOLIO - Club Theme</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- AOS CSS (Animation library) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- *** Correct Filename *** -->
+</head>
+<body class="disco-theme"> <!-- Optional: Add theme class to body -->
+
+    <!-- Optional: Top Bar -->
+    <div class="top-bar py-1 d-none d-lg-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center text-white small">
+                <i class="bi bi-chat-square-text me-2 icon-accent-1"></i> <!-- Added accent class -->
+                <span class="mi">MI WEB DESIGNS</span>
+                <i class="bi bi-arrow-left ms-3"></i>
+                <i class="bi bi-arrow-right ms-2"></i>
+            </div>
+            <div class="d-flex align-items-center">
+                <a href="#" class="me-3"><i class="bi bi-facebook icon-accent-2"></i></a> <!-- Added accent class -->
+                <a href="#" class="me-3"><i class="bi bi-twitter icon-accent-3"></i></a> <!-- Added accent class -->
+                <a href="#" class="me-3"><i class="bi bi-linkedin icon-accent-4"></i></a> <!-- Added accent class -->
+                <a href="#" class="me-3"><i class="bi bi-instagram icon-accent-1"></i></a> <!-- Added accent class -->
+                <a href="#" class="btn btn-sm btn-custom-accent-1 contact-btn"><i class="bi bi-chevron-right small me-1"></i> Contact Me</a> <!-- Use accent color -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark main-nav sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" data-aos="fade-right">
+               <span class="brand-text" style="font-style: oblique;">MI CODES</span> <!-- Use class for styling -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="100"><a class="nav-link active" aria-current="page" href="#hero">HOME</a></li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="200"><a class="nav-link" href="#about-us">ABOUT</a></li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="300"><a class="nav-link" href="#experience">EXPERIENCE</a></li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="400"><a class="nav-link" href="#services">SERVICES</a></li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="500"><a class="nav-link" href="#portfolio">MY WORK</a></li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="600"><a class="nav-link" href="#testimonials">TESTIMONIALS</a></li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="700"><a class="nav-link" href="#pricing">PRICING</a></li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="800"><a class="nav-link" href="#login-admin">ADMIN</a></li>
+                </ul>
+                <div class="d-flex align-items-center navbar-right-tools" data-aos="fade-left" data-aos-delay="500">
+        
+                   <a href="#" class="text-white"><i class="bi bi-grid-3x3-gap-fill fs-4 icon-accent-3 nav-grid-icon"></i></a> <!-- Use class -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section d-flex align-items-center position-relative">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center hero-text-content">
+                    <h1 class="display-2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="200">
+                        <span class="text-gradient">IMAGINATION</span> IS MORE<br> <!-- Added text-gradient -->
+                        IMPORTANT THAN<br>
+                        KNOWLEDGE
+                    </h1>
+                    <p class="lead mb-4 sub-heading" data-aos="fade-up" data-aos-delay="400">
+                        I AM A <span class="text-accent-2">FRONT-END DEVELOPER</span>, I WILL DESIGN YOUR WEB IMAGINATIONS
+                    </p>
+                    <a href="#portfolio" class="btn btn-lg btn-custom-accent-1 get-started-btn" data-aos="fade-up" data-aos-delay="600">
+                        LETS BUILD <i class="bi bi-arrow-right-short"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-section py-5 position-relative overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <!-- Image Column -->
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                    <div class="about-image-wrapper position-relative text-center text-lg-start">
+                         <div class="dot-grid d-none d-lg-block">
+                            <!-- Dots styled via CSS now -->
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        </div>
+                        <img src="dfdfff.jpg" alt="Mehtab Israr" class="img-fluid rounded shadow-lg about-image">
+                    </div>
+                </div>
+                <!-- Text Column -->
+                <div class="col-lg-6 position-relative" data-aos="fade-left" data-aos-delay="300">
+                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">ABOUT ME</div>
+                    <div class="about-text-content position-relative">
+                        <h2 class="display-5 fw-bold mb-3">
+                            FAILURE IS THE CONDIMENT THAT<br> GIVES <span class="text-accent-3">SUCCESS</span> <!-- Use accent color -->
+                        </h2>
+                        <p class="text-muted-custom mb-4 lead">
+                       I ALWAYS TRY MY BEST TO GIVE YOU MY BEST
+                        </p>
+                        <a href="Mehtab_Israr_Resume.pdf" target="_blank" class="btn btn-custom-accent-2 btn-download-cv">DOWNLOAD CV <!-- Use accent color -->
+                            <span class="arrow-box ms-2"><i class="bi bi-download"></i></span> <!-- Changed icon -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section py-5">
+        <div class="container">
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start experience-title-area" data-aos="fade-right" data-aos-delay="100">
+                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">MY CAREER</div>
+                    <p class="subtitle text-accent-1 text-uppercase mb-2">My Experience</p> <!-- Use accent color -->
+                    <h2 class="main-title display-4 fw-bold mb-0">
+                        EXPERIENCE AND <span class="text-accent-4">SKILL</span> <!-- Use accent color -->
+                    </h2>
+                </div>
+                <div class="col-lg-6 experience-description mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+                    <div class="accent-marker"></div> <!-- Use accent-marker class -->
+                    <p class="text-muted-custom lead mb-0">
+                        I HAVE ALMOST ONE YEAR OF WEB EXPERIENCE
+                    </p>
+                </div>
+            </div>
+            <div class="row gy-5 gx-lg-5">
+                 <!-- Simplified experience items -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="experience-item p-4 h-100">
+                       <h3 class="experience-title text-accent-1">WEB DEVELOPER</h3>
+                       <h4 class="experience-subtitle">MAINLY FOCUSED</h4>
+                        <p class="small text-muted-custom">Crafting dynamic and responsive web applications.</p>
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="experience-item p-4 h-100">
+                        <h3 class="experience-title text-accent-2">WEB DESIGNER</h3>
+                        <h4 class="experience-subtitle">THINKING TO REALITY</h4>
+                         <p class="small text-muted-custom">Designing intuitive and visually appealing user interfaces.</p>
+                     </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="experience-item p-4 h-100">
+                        <h3 class="experience-title text-accent-3">SPORTSMAN STIPE</h3>
+                        <h4 class="experience-subtitle">MENTAL PURITY FIRST</h4>
+                        <p class="small text-muted-custom">Applying discipline and focus from sports to projects.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="experience-item p-4 h-100">
+                        <h3 class="experience-title text-accent-4">VIDEO EDITOR</h3>
+                        <h4 class="experience-subtitle">JUST FOR FUN</h4>
+                        <p class="small text-muted-custom">Creating engaging video content as a creative outlet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section py-5">
+        <div class="container">
+            <div class="row text-center gy-5">
+                <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="96" data-color-var="--accent-1"> <!-- Assign color -->
+                            <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="progress-circle-track" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress-circle-progress" cx="50" cy="50" r="45" pathLength="100"></circle>
+                            </svg>
+                            <div class="progress-circle-text">
+                                <span class="percentage-value">0</span>%
+                            </div>
+                        </div>
+                        <h3 class="skill-label h6 text-uppercase fw-bold mt-3">WEB DEVELOPING</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="91" data-color-var="--accent-2"> <!-- Assign color -->
+                            <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="progress-circle-track" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress-circle-progress" cx="50" cy="50" r="45" pathLength="100"></circle>
+                            </svg>
+                            <div class="progress-circle-text">
+                                <span class="percentage-value">0</span>%
+                            </div>
+                        </div>
+                        <h3 class="skill-label h6 text-uppercase fw-bold mt-3">UI & UX Design</h3>
+                    </div>
+                </div>
+                 <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="75" data-color-var="--accent-3"> <!-- Assign color -->
+                             <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="progress-circle-track" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress-circle-progress" cx="50" cy="50" r="45" pathLength="100"></circle>
+                            </svg>
+                            <div class="progress-circle-text">
+                                <span class="percentage-value">0</span>%
+                            </div>
+                        </div>
+                        <h3 class="skill-label h6 text-uppercase fw-bold mt-3">CLIENT RESPONSE</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-item">
+                        <div class="progress-circle" data-percentage="85" data-color-var="--accent-4"> <!-- Assign color -->
+                             <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="progress-circle-track" cx="50" cy="50" r="45"></circle>
+                                <circle class="progress-circle-progress" cx="50" cy="50" r="45" pathLength="100"></circle>
+                            </svg>
+                            <div class="progress-circle-text">
+                                <span class="percentage-value">0</span>%
+                            </div>
+                        </div>
+                        <h3 class="skill-label h6 text-uppercase fw-bold mt-3">RESPONSE TIME</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5 overflow-hidden">
+        <div class="container">
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start services-title-area" data-aos="fade-right">
+                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">OUR SERVICES</div>
+                    <p class="subtitle text-accent-2 text-uppercase mb-2">What We Do</p> <!-- Use accent -->
+                    <h2 class="main-title display-4 fw-bold mb-0">
+                        SERVICES AND <span class="text-accent-1">SOLUTIONS</span> <!-- Use accent -->
+                    </h2>
+                </div>
+                <div class="col-lg-6 services-description mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
+                    <div class="accent-marker"></div> <!-- Use accent-marker class -->
+                    <p class="text-muted-custom lead mb-0">
+                        I specialize in building responsive, adaptive, and user-centric web experiences that are both intuitive and interactive. My designs are mobile-first, accessible, and SEO-optimized.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row gy-4 justify-content-center">
+                <!-- Service Card 1 -->
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card p-4 p-lg-5 text-center text-lg-start w-100">
+                        <div class="service-icon mb-4 mx-auto mx-lg-0">
+                            <i class="bi bi-flag-fill display-4 text-accent-1"></i> <!-- Use accent -->
+                        </div>
+                        <h3 class="service-title h5 text-accent-1 text-uppercase fw-bold mb-3">Design Principles</h3> <!-- Use accent -->
+                        <p class="service-description text-muted-custom small">
+                            Focusing on clarity, usability, and aesthetic appeal in every project.
+                        </p>
+                    </div>
+                </div>
+                <!-- Service Card 2 (Highlighted) -->
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card card-highlight p-4 p-lg-5 text-center text-lg-start w-100"> <!-- Kept highlight class for potential different base style -->
+                        <div class="service-icon mb-4 mx-auto mx-lg-0">
+                            <i class="bi bi-lightbulb-fill display-4"></i>
+                        </div>
+                        <h3 class="service-title h5 text-uppercase fw-bold mb-3">Unique Values</h3>
+                        <p class="service-description small">
+                            Bringing creative solutions and a fresh perspective to complex challenges.
+                        </p>
+                    </div>
+                </div>
+                 <!-- Service Card 3 -->
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card p-4 p-lg-5 text-center text-lg-start w-100 position-relative">
+                        <div class="service-icon mb-4 mx-auto mx-lg-0">
+                            <i class="bi bi-layers-fill display-4 text-accent-3"></i> <!-- Use accent -->
+                        </div>
+                        <h3 class="service-title h5 text-accent-3 text-uppercase fw-bold mb-3">Style Components</h3> <!-- Use accent -->
+                        <p class="service-description text-muted-custom small">
+                            Building modular and reusable components for consistent design systems.
+                        </p>
+                        <div class="decorative-circle d-none d-lg-block"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section py-5 overflow-hidden">
+        <div class="container">
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start portfolio-title-area" data-aos="fade-right">
+                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">OUR PORTFOLIO</div>
+                    <p class="subtitle text-accent-3 text-uppercase mb-2">Working Process</p> <!-- Use accent -->
+                    <h2 class="main-title display-4 fw-bold mb-0">
+                        LATEST WORKING <span class="text-accent-4">PROJECT</span> <!-- Use accent -->
+                    </h2>
+                </div>
+                <div class="col-lg-6 portfolio-header-right mt-4 mt-lg-0 d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center" data-aos="fade-left" data-aos-delay="100">
+                    <div class="portfolio-description flex-grow-1 me-lg-3 text-center text-lg-start">
+                        <div class="accent-marker"></div> <!-- Use accent-marker class -->
+                        <p class="text-muted-custom lead mb-0">
+                            HERE IS MY LATEST PROJECTS ON WHICH I WORKED
+                        </p>
+                    </div>
+                    <div class="portfolio-nav mt-3 mt-lg-0 text-center text-lg-end">
+                        <a href="#" class="btn-nav" aria-label="Previous Project">
+                            <i class="bi bi-arrow-left"></i>
+                        </a>
+                        <a href="#" class="btn-nav ms-2" aria-label="Next Project">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 justify-content-center">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-item">
+                        <a href="#">
+                            <img src="work1.jpg" alt="Project 1 Preview" class="img-fluid project-image">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-item">
+                        <a href="#">
+                            <img src="owrk3.avif" alt="Project 2 Preview" class="img-fluid project-image">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-item">
+                        <a href="#">
+                            <img src="work2.jpg" alt="Project 3 Preview" class="img-fluid project-image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section py-5 overflow-hidden position-relative">
+        <!-- Removed background patterns for cleaner look -->
+        <div class="container position-relative" style="z-index: 2;">
+            <div class="row mb-5 pb-4 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start testimonial-title-area" data-aos="fade-right">
+                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">TESTIMONIALS</div>
+                    <p class="subtitle text-accent-4 text-uppercase mb-2">Testimonials</p> <!-- Use accent -->
+                    <h2 class="main-title display-4 fw-bold mb-0">
+                        HAPPY CLIENTS <span class="text-gradient">SAYS</span> <!-- Use gradient -->
+                    </h2>
+                </div>
+                <div class="col-lg-6 testimonial-header-right mt-4 mt-lg-0 d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center" data-aos="fade-left" data-aos-delay="100">
+                    <div class="testimonial-description flex-grow-1 me-lg-3 text-center text-lg-start">
+                        <div class="accent-marker"></div> <!-- Use accent-marker class -->
+                        <p class="text-muted-custom lead mb-0">
+                            HERE IS THE REASON OF MY SATISFACTION TOWARDS MY CLIENTS
+                        </p>
+                    </div>
+                    <div class="testimonial-nav mt-3 mt-lg-0 text-center text-lg-end">
+                        <a href="#" class="btn-nav" aria-label="Previous Testimonial">
+                            <i class="bi bi-arrow-left"></i>
+                        </a>
+                        <a href="#" class="btn-nav ms-2" aria-label="Next Testimonial">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-9" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-item text-center">
+                        <div class="quote-icon display-1 text-accent-1 mb-4"> <!-- Use accent -->
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <div class="testimonial-body d-flex flex-column flex-md-row align-items-center">
+                            <div class="flex-shrink-0 mb-4 mb-md-0 me-md-4">
+                                <img src="young-business-man-coat-outside-with-laptop.jpg" alt="Jack Metiyo Shina" class="testimonial-image rounded-circle">
+                            </div>
+                            <div class="flex-grow-1 text-center text-md-start">
+                                <blockquote class="testimonial-text h3 fw-bold mb-4">
+                                    MEHTAB ISRAR IS A GREAT AND SUPER-PROFESSIONAL SERVICE PROVIDER, WHICH BROUGHT NEW TECHNOLOGIES, NEW METHODOLOGY, AND A FRESH PERSPECTIVE TO OUR PROJECT
+                                </blockquote>
+                                <p class="testimonial-attribution text-muted-custom">
+                                    Jack Metiyo Shina, california, USA
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section py-5 overflow-hidden position-relative">
+        <!-- Removed background pattern -->
+        <div class="container position-relative" style="z-index: 2;">
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start pricing-title-area" data-aos="fade-right">
+                    <div class="faded-bg-text d-none d-lg-block" aria-hidden="true">PAYMENT</div>
+                    <p class="subtitle text-accent-1 text-uppercase mb-2">Specifications</p> <!-- Use accent -->
+                    <h2 class="main-title display-4 fw-bold mb-0">
+                        ALL OUR PAYMENT <span class="text-accent-2">OPTIONS</span> <!-- Use accent -->
+                    </h2>
+                </div>
+                <div class="col-lg-6 pricing-header-right mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
+                    <div class="pricing-description text-center text-lg-start">
+                        <div class="accent-marker"></div> <!-- Use accent-marker class -->
+                        <p class="text-muted-custom lead mb-0">
+                            PAYMENTS METHOD ARE EASILY RELIABLE AND FRIENDLY
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 justify-content-center">
+                 <!-- Pricing Card 1 -->
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-card p-4 p-lg-5 text-center w-100">
+                        <div class="pricing-icon mb-4">
+                            <i class="bi bi-flag-fill display-4 text-accent-1"></i> <!-- Use accent -->
+                        </div>
+                        <h3 class="plan-title h5 text-accent-1 text-uppercase fw-bold mb-1">Influencer</h3> <!-- Use accent -->
+                        <p class="plan-subtitle text-muted-custom small mb-4">Best For Small Investors</p>
+                        <hr class="pricing-divider mx-auto">
+                        <div class="pricing-block mb-4">
+                            <span class="price display-5 fw-bold text-accent-1">$104</span> <!-- Use accent -->
+                            <span class="period d-block small text-muted-custom">Per Month</span>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-custom-accent-1 btn-read-more"> <!-- Use accent -->
+                            READ MORE
+                            <span class="arrow-box ms-2">
+                                <i class="bi bi-arrow-right-short"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                 <!-- Pricing Card 2 (Highlighted) -->
+                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                     <div class="pricing-card card-highlight p-4 p-lg-5 text-center w-100 position-relative"> <!-- Highlight class kept -->
+                        <div class="highlight-bg-pattern"></div> <!-- Optional subtle pattern -->
+                        <div class="pricing-icon mb-4 position-relative" style="z-index: 2;">
+                            <i class="bi bi-lightbulb-fill display-4"></i>
+                        </div>
+                        <h3 class="plan-title h5 text-uppercase fw-bold mb-1 position-relative" style="z-index: 2;">Agency</h3>
+                        <p class="plan-subtitle small mb-4 position-relative" style="z-index: 2;">Best For Growing Businesses</p>
+                        <hr class="pricing-divider highlight-divider mx-auto position-relative" style="z-index: 2;">
+                        <div class="pricing-block mb-4 position-relative" style="z-index: 2;">
+                            <span class="price display-5 fw-bold">$204</span>
+                            <span class="period d-block small">Per Month</span>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-custom-light btn-read-more inverted position-relative" style="z-index: 2;"> <!-- Use light button -->
+                            READ MORE
+                            <span class="arrow-box ms-2">
+                                <i class="bi bi-arrow-right-short"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                 <!-- Pricing Card 3 -->
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                     <div class="pricing-card p-4 p-lg-5 text-center w-100 position-relative">
+                        <div class="pricing-icon mb-4 position-relative" style="z-index: 2;">
+                           <i class="bi bi-layers-fill display-4 text-accent-3"></i> <!-- Use accent -->
+                        </div>
+                        <h3 class="plan-title h5 text-accent-3 text-uppercase fw-bold mb-1 position-relative" style="z-index: 2;">Enterprise</h3> <!-- Use accent -->
+                        <p class="plan-subtitle text-muted-custom small mb-4 position-relative" style="z-index: 2;">Best For Large Projects</p>
+                        <hr class="pricing-divider mx-auto position-relative" style="z-index: 2;">
+                        <div class="pricing-block mb-4 position-relative" style="z-index: 2;">
+                            <span class="price display-5 fw-bold text-accent-3">LET'S CHAT</span> <!-- Use accent -->
+                            <span class="period d-block small text-muted-custom">Custom Quote</span>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-custom-accent-3 btn-read-more position-relative" style="z-index: 2;"> <!-- Use accent -->
+                            READ MORE
+                            <span class="arrow-box ms-2">
+                                <i class="bi bi-arrow-right-short"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login-admin" class="login-section py-5 overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 text-center">
+                    <div class="login-message mb-5" data-aos="fade-up">
+                        <h2 class="main-title display-5 fw-bold mb-3">
+                            DEVELOPER <span class="text-accent-4">ACCESS</span> <!-- Use accent -->
+                        </h2>
+                        <p class="text-muted-custom lead">
+                            This section is for administrative access. Feel free to explore the rest of the portfolio!
+                        </p>
+                    </div>
+                    <div class="login-form-wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="mb-4 fw-bold">Admin Login</h3>
+                        <form action="#" method="post">
+                            <div class="form-floating mb-3" data-aos="fade-up" data-aos-delay="200">
+                                <input type="email" class="form-control login-input" id="loginEmail" placeholder="name@example.com" required>
+                                <label for="loginEmail"></label>
+                            </div>
+                            <div class="form-floating mb-3" data-aos="fade-up" data-aos-delay="300">
+                                <input type="password" class="form-control login-input" id="loginPassword" placeholder="Password" required>
+                                <label for="loginPassword">Password</label>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-4" data-aos="fade-up" data-aos-delay="400">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="rememberMe">
+                                    <label class="form-check-label small" for="rememberMe">
+                                        Remember me
+                                    </label>
+                                </div>
+                                <a href="#" class="small forgot-link">Forgot password?</a>
+                            </div>
+                            <button type="submit" class="btn btn-lg btn-custom-accent-4 w-100" data-aos="fade-up" data-aos-delay="500"> <!-- Use accent -->
+                                LOGIN
+                                <span class="arrow-box ms-2">
+                                <i class="bi bi-box-arrow-in-right"></i>
+                            </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer v2 -->
+   
+    
+        <!-- Footer v2 -->
+  
+        <footer id="footer-v2" class="site-footer-v2 pt-5 pb-4 position-relative">
+            <div class="container position-relative" style="z-index: 2;">
+                <div class="row mb-4 align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0 footer-identity">
+                        <h3 class="footer-title mb-2">
+                            <span class="word-span text-accent-1">WEB</span>
+                            <span class="word-span">DEVELOPER</span>
+                        </h3>
+                        <p class="footer-subtitle text-muted-custom small mb-0">Crafting digital experiences, one line of code at a time.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end social-icons">
+                        <a href="https://pk.linkedin.com/" target="_blank" class="social-icon-item" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/" target="_blank" class="social-icon-item" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="https://twitter.com/" target="_blank" class="social-icon-item" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://dribbble.com/" target="_blank" class="social-icon-item" aria-label="Dribbble"><i class="bi bi-dribbble"></i></a>
+                    
+                    </div>
+                </div>
+                <hr class="footer-divider my-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 mb-4 mb-lg-0">
+                        <h4 class="languages-title small text-uppercase fw-bold text-muted-custom mb-3">Technologies I Use</h4>
+                        <div class="language-logos-grid">
+                            <div class="language-logo-item" title="HTML5">
+                                <img src="html.png" alt="HTML Logo" class="img-fluid language-logo">
+                            </div>
+                            <div class="language-logo-item" title="CSS3">
+                                <img src="css.jfif" alt="CSS Logo" class="img-fluid language-logo">
+                            </div>
+                            <div class="language-logo-item" title="JavaScript">
+                                <img src="jss.png" alt="JavaScript Logo" class="img-fluid language-logo">
+                            </div>
+                            <div class="language-logo-item" title="Bootstrap">
+                                <img src="bootrap.png" alt="Bootstrap Logo" class="img-fluid language-logo">
+                            </div>
+                            <div class="language-logo-item" title="React">
+                                <img src="React.webp" alt="React Logo" class="img-fluid language-logo">
+                         
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center text-lg-end">
+                        <p class="copyright-text-v2 small mb-0">
+                            © <span id="current-year"></span> MI  CODES, All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- Simple Chatbot -->
+<div id="chatbot-container" class="chatbot-container">
+    <button id="chatbot-toggle" class="chatbot-toggle-button" aria-label="Toggle Chatbot">
+        <i class="bi bi-chat-dots-fill"></i> <!-- Chat icon -->
+    </button>
+    <div id="chatbot-window" class="chatbot-window">
+        <div class="chatbot-header">
+            <span>MI Assistant</span>
+            <button id="chatbot-close" class="chatbot-close-button" aria-label="Close Chat">×</button>
+        </div>
+        <div id="chatbot-messages" class="chatbot-messages">
+            <!-- Chat messages will appear here -->
+            <div class="message bot-message">Hi there! How can I help you today? (Try asking about 'services', 'portfolio', 'contact')</div>
+        </div>
+        <div class="chatbot-input-area">
+            <input type="text" id="chatbot-input" placeholder="Type your message...">
+            <button id="chatbot-send" class="chatbot-send-button">Send</button>
+        </div>
+    </div>
+</div>
+        <!-- Scroll to Top Button -->
+        <a href="#" class="scroll-to-top position-fixed bottom-0 end-0 m-3 shadow" aria-label="Scroll to top">
+            <i class="bi bi-arrow-up-short"></i>
+        </a>
+                <!-- ... (Your existing code like the scroll-to-top button) ... -->
+
+        <!-- WhatsApp Float Button -->
+        <a href="https://web.whatsapp.com/" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
+    
+        <!-- Scripts -->
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>     
+  
+
+
+     <!-- Scripts -->
+    
+ </body>
+ </html>
+  
